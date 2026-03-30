@@ -13,3 +13,12 @@ void input(){
     cout << "----------------------------------" << endl;
     cin >> kodeJurusan;
 }
+
+void pilihanJurusan() {
+    switch (kodeJurusan) {
+        case 1:
+        namaJurusan = "Teknologi informasi";
+        statusKuota = "Tersedia (15 Kursi)";
+        break;
+    }
+}
