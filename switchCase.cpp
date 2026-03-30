@@ -27,5 +27,9 @@ void pilihanJurusan() {
         case 3:
         namaJurusan = "Sistem Informasi";
         statusKuota = "Tersedia (5 Kursi)";
+        default:
+        namaJurusan = "Tidak Diketahui";
+        statusKuota = "Error: Kode Tidak Valid";
+
     }
 }
